@@ -6,7 +6,8 @@ class CreateCostumeStores
       t.integer :costume_intentory
       t.integer :employees
       t.boolean :still_in_business
-      t.
+      t.datetime :opening_time
+      t.datetime :closing_time 
     end
   end
 end
