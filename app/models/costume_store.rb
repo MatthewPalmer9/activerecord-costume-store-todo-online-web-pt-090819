@@ -3,7 +3,7 @@
 class CostumeStore < ActiveRecord::Base
   def change
     create_table :costume_stores do |t|
-      t.string :name
+      t.text :name
       t.string :location
       t.integer :costume_intentory
       t.integer :employees
